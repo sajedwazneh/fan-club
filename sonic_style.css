@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(59, 137, 128);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: rgb(59, 137, 128);
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+li {
+  margin-right: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+nav a:hover {
+  color: aquamarine;
+}
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(dazaii.jpg);
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+  font-family: "American TextC";
+  src: local("American TextC"),
+    url("https://hb.bizmrg.com/fonts/americantext/400.woff2") format("woff2"),
+    url("https://hb.bizmrg.com/fonts/americantext/400.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+.welcome h2 {
+  font-size: 40px;
+  color: rgba(202, 220, 241, 0.812);
+  margin-bottom: 220px;
+  margin-top: 50px;
+}
+.welcome button {
+  padding: 15px 40px;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(163, 52, 52);
+  font-size: 21px;
+  transition: 1s;
+}
+.welcome button:hover {
+  background-image: url(dazaim.jpg);
+  background-size: cover;
+  padding: 100px;
+  font-size: 0px;
+}
+.abt {
+  text-align: center;
+  padding: 40px 20px;
+}
+.abt p {
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.abt h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.gallery {
+  text-align: center;
+  padding: 50px 20px;
+}
+.gallery h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.imcn {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.imcn img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+footer{
+    padding: 20px 20px;
+    text-align: center;
+    background-color: white;
+    
+}
+footer p{
+    color: black;
+    font-size: 14px;
+}
+.ll{
+    text-align: center;
+    font-size: x-large;
+}
+.anime p{
+    font-size:x-large ;
+    font-family: 'ABeeZee';
+    src: local('ABeeZee Italic'), local('ABeeZee-Italic'), url('https://hb.bizmrg.com/fonts/abeezee/400i.woff2') format('woff2'), url('https://hb.bizmrg.com/fonts/abeezee/400i.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+.anime ul{
+    display: flex;
+    list-style: none;
+    
+}
+.anime li{
+    padding: 20px;
+}
